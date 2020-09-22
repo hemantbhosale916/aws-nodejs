@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir /home/ubuntu/nodejs
-cd /home/ubuntu/nodejs
+mkdir /home/bitnami/nodejs
+cd /home/bitnami/nodejs
 
 sudo npm install
