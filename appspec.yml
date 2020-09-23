@@ -73,6 +73,11 @@ hooks:
       runas: root
 # During the ApplicationInstall deployment lifecycle event, run the commands 
 #   in the script specified in "location".
+  ApplicationStop:
+    - location: scripts/application_stop.sh
+      timeout: 300
+      runas: root
+      
   ApplicationStart:
     - location: scripts/application_start.sh
       timeout: 300
